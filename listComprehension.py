@@ -19,4 +19,7 @@ print "odd numbers are: " + display(oddList)
 evenList = [i for i in myList if i&1==0]
 print "even numbers are: " + display(evenList)
 
-
+# we can do the above in 1 line
+import math
+complexList = [(i+1, i-1, pow(2, i)) for i in myList]
+print complexList
