@@ -39,3 +39,7 @@ for i in digits:
 
 for i in powof2.keys():
 	print str(i) + "->" + str(powof2[i])
+
+print "using items()"
+for key, value in powof2.items():
+	print str(key) + "->" + str(value)
